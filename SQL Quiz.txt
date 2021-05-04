@@ -1,0 +1,12 @@
+1.	Store database’ni yaratmaq – 1 bal
+2.	Categories (İd, Name – unikal olsun) və Products (İd, ProductCode - unikal, Categoryİd) tables – one to many – 2 bal
+	Products və Stock (İd, Productİd, CreatedDate – default olaraq indiki tarix, Count) tables – one to many – 2 bal
+	Sizes (İd, Letter, Min, Max) table – no relation – 2 bal
+3.	Stock table-na Size(int) column əlavə etmək – 3 bal
+4.	Categories table-na 4 data (T-shirt, Jeans, Shoes, Jacket), Products table-na her kateqoriya üçün 1-2 data, Stock table-na her product üçün 2-3 data əlavə etmək (size-lar fərqli olsun) – 5 bal
+5.	Stock table-da hər Product-dan neçə ədəd olduğunu göstərən siyahı çıxarmaq (Size-ların fərqi yoxdu) – 5 bal
+6.	Hər product-a qarşılıq Size table-ndakı data-ları birləşdirib göstərmək – 15 bal  
+7.	View yaratmaq – product-ın code-u, kateqoriya adı, hansı tarixdə anbara daxil olduğu, sayı və hansı razmer olduğu (həm rəqəm razmeri, həm də hərf) – 15 bal
+8.	Procedure yaratmaq – yaratdığınız View-da göndərilən razmerə (Hərf) uyğun olan data-ları qaytarmaq – 15 bal
+9.	Function yaratmaq – göndərilən kateqoriyaya uyğun View-da neçə ədəd product olduğunu qaytarmaq – 15 bal 
+10.	 Trigger yaratmaq – hər product əlavə olanda product-ların siyahısını göstərmək – 20 bal
